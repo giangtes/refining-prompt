@@ -50,13 +50,40 @@ viết lại prompt: soạn đề kiểm tra giữa kỳ tiếng Anh lớp 8, 40
 
 The skill only writes the prompt. Paste the result into a new session to run it.
 
+## Examples
+
+A quick taste. The draft:
+
+```text
+improve my prompt: check if our center posting student photos on facebook is legal
+```
+
+After four questions, the skill returns a brief that names the country and the
+students' ages, asks for a short answer first, requires a cited source for every
+legal claim, asks for a consent form parents can sign, lists what to avoid (blogs
+as the only source, draft laws presented as in force), and ends with "mark
+anything you could not confirm". The full version is in example 4.
+
+| # | Field | Draft language | Example |
+|---|---|---|---|
+| 1 | Landing page design | Vietnamese | [examples/01-landing-page-design.md](examples/01-landing-page-design.md) |
+| 2 | Web app feature | English | [examples/02-app-feature.md](examples/02-app-feature.md) |
+| 3 | English test for a class | Vietnamese | [examples/03-english-test.md](examples/03-english-test.md) |
+| 4 | Compliance research | English | [examples/04-compliance-research.md](examples/04-compliance-research.md) |
+| 5 | Stock analysis | English | [examples/05-stock-analysis.md](examples/05-stock-analysis.md) |
+
+Each file shows the draft, the questions the skill asked, and the final prompt.
+Examples 1–4 are adapted from real test runs, with project names and paths
+changed; example 5 was written by hand following the skill.
+
 ## Files
 
 - `skills/refining-prompt/SKILL.md` — the workflow and the brief template.
 - `skills/refining-prompt/references/domain-guides.md` — done criteria, avoid
   lists and questions for design, website features, course materials,
   compliance research, marketing and stock analysis.
-- `skills/refining-prompt/references/example.md` — one full before-and-after example.
+- `skills/refining-prompt/references/example.md` — the example the skill itself reads.
+- `examples/` — five before-and-after examples for people.
 
 ## License
 
