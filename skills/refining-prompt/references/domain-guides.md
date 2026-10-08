@@ -1,10 +1,18 @@
 # Domain guides
 
-Each section gives typical done criteria, avoid items and questions for one
-field. Treat them as a menu: pick what fits the draft, and turn the questions
-into answer options. Never copy a whole section into the brief.
+Each section gives the usual form, typical self-checks, done criteria, avoid
+items and questions for one field. Treat them as a menu: pick what fits the
+draft, and turn the questions into answer options. Never copy a whole section
+into the prompt.
 
 ## Visual or UI design (landing page, slide, poster, brand asset)
+
+Usual form: coworker message. Full brief when it ships to production or spans
+several pages and rounds of review.
+
+Self-check:
+- Open the result at each target size, take a screenshot and compare it with
+  the reference or brand file; fix and look again.
 
 Done means:
 - A named set of screens or pages exists, each at the stated sizes (for example
@@ -26,6 +34,13 @@ Ask:
 
 ## Website feature (code change in an existing app)
 
+Usual form: coworker message. Full brief when it touches production, data
+migrations, payments or shared code across many files.
+
+Self-check:
+- Run the named tests, then use the feature on the preview or staging site with
+  the right user role.
+
 Done means:
 - The feature works on the named route for the named user role.
 - Named tests pass (`npm run check`, a specific e2e spec); a new test covers
@@ -44,6 +59,13 @@ Ask:
 - Should the run stop at a plan for approval, or go through to a tested branch?
 
 ## English course syllabus and teaching materials
+
+Usual form: coworker message for one lesson or worksheet; full brief for a
+whole unit, course or print run.
+
+Self-check:
+- Render the PDF and read every page; check each source reference against the
+  book list.
 
 Done means:
 - Every topic lists book, unit and page for its material.
@@ -64,6 +86,13 @@ Ask:
 - Is the output a plan to approve, a draft, or print-ready files?
 
 ## Compliance or regulatory research
+
+Usual form: always a full brief for research. A single factual lookup (one
+date, one article number) is a quick question.
+
+Self-check:
+- Open every cited source and confirm the article number, date and status
+  (in force or draft).
 
 Done means:
 - Every claim cites a primary source (law, decree, circular, official
@@ -89,6 +118,11 @@ Ask:
 
 ## Marketing copy or campaign
 
+Usual form: coworker message.
+
+Self-check:
+- Trace every number, result and quote to the approved brief or claims file.
+
 Done means:
 - Drafts for the named channels at the named lengths.
 - Every factual claim (prices, results, testimonials) comes from the approved
@@ -107,6 +141,12 @@ Ask:
 
 ## Stock or financial analysis
 
+Usual form: always a full brief.
+
+Self-check:
+- Trace every number to its source and publication time; recompute any
+  derived figure.
+
 Done means:
 - Every number carries its source and publication time.
 - The output separates facts, the model's inference and open questions.
@@ -123,6 +163,6 @@ Ask:
 
 ## Anything else
 
-Use the brief checklist in `SKILL.md`. The first question is usually "What will
-you do with the result?", because the answer sets both the purpose line and the
-done criteria.
+Use the checklist in `SKILL.md`; the coworker message is the usual form. The
+first question is usually "What will you do with the result?", because the
+answer sets the purpose and how the work should be checked.
